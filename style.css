@@ -1,0 +1,44 @@
+/* color property : set the color for the text */
+h1 {
+    color : grey;
+}
+
+h3 {
+    color : rgba(28, 192, 135, 0.5); /* 0.5 : opacity (how light you want the text is */
+}
+/* background-color : set the background_color of the element */
+h2 {
+    background-color : #006400;
+}
+h4 {
+    background-color : rgb(250, 255, 90);
+}
+/* width : set the width for the element
+   height : set the height for the element */
+div {
+    width : 100%; /* avoid using hard code like "px", instead using "%" */
+    height : 200px;/* using max-width to set the max width you want to use, and avoid set the height too */
+    background-color : #D4F1F4;
+}
+/* border */
+b {
+    border : 1px solid black;
+    /* border-width : 2px;
+       border-style : dotted;
+       border-color : red; */
+
+}
+
+/* font-size */
+p {
+    font-size : 30px;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
+
+}
+.red {
+    color : red;
+}
+.blue {
+    color : blue;
+}
