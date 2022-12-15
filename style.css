@@ -42,3 +42,7 @@ p {
 .blue {
     color : blue;
 }
+section {
+    
+    border: 1px dotted black;
+}
